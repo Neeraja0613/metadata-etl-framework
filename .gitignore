@@ -1,0 +1,62 @@
+# 🔐 Environment files
+.env
+.env.*
+
+# 🐍 Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 📦 Virtual environments
+venv/
+env/
+ENV/
+
+# 📊 Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# 🧪 Testing & coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# 📝 Logs
+*.log
+
+# 🐳 Docker
+docker-compose.override.yml
+
+# 🗄️ Database files (if any local)
+*.db
+*.sqlite3
+
+# 📂 OS files
+.DS_Store
+Thumbs.db
+
+# 🧰 IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 📦 Build files
+dist/
+build/
+*.egg-info/
+
+# 🔒 Secrets / keys
+*.pem
+*.key
+
+# 📁 Temporary files
+*.tmp
+*.temp
+
+# 📤 CSV outputs (optional)
+# Uncomment if needed
+# data/*.csv
+
+# 🚫 Node (if added later)
+node_modules/
